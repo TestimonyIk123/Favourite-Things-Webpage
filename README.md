@@ -1,6 +1,6 @@
 # _Favourite things_
 
-#### _Arithmetic Calculator_
+#### _Favourite things_
 
 #### By _**Ikekhuamen Testimony**_
 
@@ -13,7 +13,7 @@
 
 ## Description
 
-_To enable users calcuate..._
+_To enable users fill in their favourite things_
 
 ## Setup/Installation Requirements
 

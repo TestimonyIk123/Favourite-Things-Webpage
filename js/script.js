@@ -9,6 +9,20 @@ $(document).ready(function(){
     const celebrityInput = $("input#celebrity").val();
     const placeInput = $("input#place").val();
 
+    let myInputArray=[];
+    myInputArray.push(foodInput);
+    myInputArray.push(drinkInput);
+    myInputArray.push(colorInput);
+    myInputArray.push(musicInput);
+    myInputArray.push(celebrityInput);
+    myInputArray.push(placeInput);
+
+    $("#myCollection").append("<li>"+myInputArray[0]+"</li>")
+    $("#myCollection").append("<li>"+myInputArray[1]+"</li>")
+    $("#myCollection").append("<li>"+myInputArray[2]+"</li>")
+    $("#myCollection").append("<li>"+myInputArray[3]+"</li>")
+    $("#myCollection").append("<li>"+myInputArray[4]+"</li>")
+    $("#myCollection").append("<li>"+myInputArray[5]+"</li>")
 
    $(".food").text(foodInput);
    $(".drink").text(drinkInput);
