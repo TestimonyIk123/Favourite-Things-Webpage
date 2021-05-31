@@ -1,0 +1,22 @@
+$(document).ready(function(){
+  console.log("Script executing");
+  $("#formOne").submit(function(event){
+    const foodInput = $("input#food").val();
+    console.log ("Submit form successfully reached.");
+    const drinkInput = $("input#drink").val();
+    const colorInput = $("input#color").val();
+    const musicInput = $("input#music").val();
+    const celebrityInput = $("input#celebrity").val();
+    const placeInput = $("input#place").val();
+
+
+   $(".food").text(foodInput);
+   $(".drink").text(drinkInput);
+   $(".color").text(colorInput);
+   $(".music").text(musicInput);
+   $(".celebrity").text(celebrityInput);
+   $(".place").text(placeInput);
+   event.preventDefault()
+   $("#story").show();
+  });
+});
